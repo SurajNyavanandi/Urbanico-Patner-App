@@ -1,0 +1,219 @@
+{
+  "materials": [
+    {
+      "id": "granite_metal_20mm",
+      "name": "20mm Granite Stones (Blue Metal)",
+      "category": "Sand & Aggregates",
+      "defaultPrice": 1450,
+      "unit": "Ton",
+      "stockQuantity": 12000,
+      "inStock": true,
+      "densityTonsPerUnit": 1,
+      "gstRate": 18,
+      "imageUrl": "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=600&q=80",
+      "description": "High strength granite metal for slab casting and footing foundations."
+    },
+    {
+      "id": "m_sand_zone_ii",
+      "name": "Zone II M-Sand (Manufactured Sand)",
+      "category": "Sand & Aggregates",
+      "defaultPrice": 1650,
+      "unit": "Ton",
+      "stockQuantity": 8500,
+      "inStock": true,
+      "densityTonsPerUnit": 1,
+      "gstRate": 18,
+      "imageUrl": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=600&q=80",
+      "description": "Triple-washed manufactured sand for crack-resistant mortar."
+    },
+    {
+      "id": "ultra_tech_ppc",
+      "name": "UltraTech PPC Cement (50kg Bag)",
+      "category": "Cement",
+      "defaultPrice": 385,
+      "unit": "Bag",
+      "stockQuantity": 4500,
+      "inStock": true,
+      "densityTonsPerUnit": 0.05,
+      "gstRate": 18,
+      "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80",
+      "description": "Premium PPC cement with high durability and corrosion resistance."
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "DEL-2026-3770",
+      "orderNumber": "ORD-2026-4188",
+      "cargoDescription": "14 Tons • 20mm Granite Stones",
+      "materialId": "granite_metal_20mm",
+      "tonnage": 14,
+      "pickupSource": "Quarry #4, Patancheru Hub, Hyderabad",
+      "destinationAddress": "Plot 88, Financial District",
+      "destinationCoordinates": {
+        "lat": 17.4198,
+        "lng": 78.3475
+      },
+      "currentLocation": {
+        "lat": 17.4435,
+        "lng": 78.3772,
+        "speedKmph": 35,
+        "lastPing": "2026-10-19T10:24:56.570Z"
+      },
+      "supervisorName": "Rao Garu",
+      "supervisorPhone": "+919849123456",
+      "vehicleNumber": "TS-07-UB-4491",
+      "vehicleType": "16-Wheeler Heavy Tipper",
+      "tareWeightKg": 8400,
+      "grossWeightKg": 22400,
+      "netWeightKg": 14000,
+      "eWayBillNo": "241053835281",
+      "quarryGatePass": "QGP-HYD-17731",
+      "handoverOtp": "9673",
+      "status": "assigned",
+      "assignedDriverPhone": "+919876543210",
+      "dispatchedAt": "2026-10-19T10:24:56.570Z"
+    },
+    {
+      "id": "DEL-2026-9912",
+      "orderNumber": "ORD-2026-8812",
+      "cargoDescription": "10 Tons • 20mm Granite Stones",
+      "materialId": "granite_metal_20mm",
+      "tonnage": 10,
+      "pickupSource": "Quarry #4, Patancheru Hub, Hyderabad",
+      "destinationAddress": "Site #42, Financial District, Near ORR Exit 1",
+      "destinationCoordinates": {
+        "lat": 17.4198,
+        "lng": 78.3475
+      },
+      "currentLocation": {
+        "lat": 17.4435,
+        "lng": 78.3772,
+        "speedKmph": 38.5,
+        "lastPing": "2026-10-19T10:24:54.177Z"
+      },
+      "supervisorName": "Kanukula Shekhar",
+      "supervisorPhone": "+918317594246",
+      "vehicleNumber": "TS-07-UB-4491",
+      "vehicleType": "16-Wheeler Heavy Tipper (BharatBenz 2823R)",
+      "tareWeightKg": 8400,
+      "grossWeightKg": 18400,
+      "netWeightKg": 10000,
+      "eWayBillNo": "241098194481",
+      "quarryGatePass": "QGP-HYD-88219",
+      "handoverOtp": "4912",
+      "status": "in_transit",
+      "assignedDriverPhone": "+919876543210",
+      "dispatchedAt": "2026-10-19T08:30:00.000Z"
+    },
+    {
+      "id": "DEL-2026-9915",
+      "orderNumber": "ORD-2026-8815",
+      "cargoDescription": "18 Tons • Zone II M-Sand",
+      "materialId": "m_sand_zone_ii",
+      "tonnage": 18,
+      "pickupSource": "Washery #2, Choutuppal Depot",
+      "destinationAddress": "Tower C, My Home Bhooja, Hitec City",
+      "destinationCoordinates": {
+        "lat": 17.4385,
+        "lng": 78.3792
+      },
+      "currentLocation": {
+        "lat": 17.385,
+        "lng": 78.4867,
+        "speedKmph": 42,
+        "lastPing": "2026-10-19T10:24:54.178Z"
+      },
+      "supervisorName": "Ramesh Varma",
+      "supervisorPhone": "+919849012345",
+      "vehicleNumber": "TS-08-UA-9904",
+      "vehicleType": "Multi-Axle Dumper (Tata Prima 3530.K)",
+      "tareWeightKg": 11200,
+      "grossWeightKg": 29200,
+      "netWeightKg": 18000,
+      "eWayBillNo": "241098205510",
+      "quarryGatePass": "QGP-CHOU-1109",
+      "handoverOtp": "7731",
+      "status": "assigned",
+      "assignedDriverPhone": "+919876543210",
+      "dispatchedAt": "2026-10-19T09:15:00.000Z"
+    }
+  ],
+  "serviceOrders": [
+    {
+      "id": "SRV-ORD-7712",
+      "serviceId": "slab_casting_crew",
+      "serviceName": "Concrete Slab Casting Squad",
+      "customerName": "Aparna Construction Projects",
+      "customerPhone": "+919948011223",
+      "siteAddress": "Block 4, Gachibowli High-Street Phase 2",
+      "siteCoordinates": {
+        "lat": 17.4401,
+        "lng": 78.3489
+      },
+      "scheduledDate": "2026-10-19",
+      "scheduledTimeSlot": "10:30 AM - 01:00 PM",
+      "baseBookingFee": 99,
+      "status": "arrived_on_site",
+      "assignedPartnerPhone": "+919123456789",
+      "checkedInAt": "2026-10-19T10:15:00.000Z",
+      "inspectionNotes": "Foundation bedrock verified. Roof area requires needle vibration compaction.",
+      "measurements": {
+        "areaSqFt": 2400,
+        "runningMeters": 45,
+        "unitDescription": "Second Floor Slab & Overhang Cantilever"
+      },
+      "crewComposition": {
+        "masons": 6,
+        "helpers": 4,
+        "daysEstimate": 2
+      },
+      "machineryRequirements": [
+        {
+          "name": "Needle Vibrator (Petrol)",
+          "quantity": 2,
+          "cost": 3000
+        },
+        {
+          "name": "Mini Batch Concrete Mixer",
+          "quantity": 1,
+          "cost": 4500
+        }
+      ],
+      "materialRequisitions": [
+        {
+          "name": "UltraTech PPC Cement (50kg)",
+          "quantity": "80 Bags",
+          "cost": 30800
+        },
+        {
+          "name": "Zone II M-Sand",
+          "quantity": "4 Tons",
+          "cost": 6600
+        }
+      ],
+      "revisedMaterialEstimate": 37400,
+      "revisedLaborEstimate": 14600,
+      "machineryRental": 7500,
+      "gstAmount": 10710,
+      "totalPayable": 70210,
+      "customerConfirmationRequested": false
+    },
+    {
+      "id": "SRV-ORD-7716",
+      "serviceId": "structural_waterproofing",
+      "serviceName": "Polymer Slurry Waterproofing",
+      "customerName": "Green Valley Luxury Villas",
+      "customerPhone": "+919876098760",
+      "siteAddress": "Plot 104, Road 36, Jubilee Hills",
+      "siteCoordinates": {
+        "lat": 17.432,
+        "lng": 78.407
+      },
+      "scheduledDate": "2026-10-19",
+      "scheduledTimeSlot": "02:00 PM - 04:30 PM",
+      "baseBookingFee": 99,
+      "status": "scheduled",
+      "assignedPartnerPhone": "+919123456789"
+    }
+  ]
+}
